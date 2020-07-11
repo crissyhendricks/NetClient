@@ -1,0 +1,59 @@
+.form-signin {
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.checkbox.mb-3 {
+  text-align: left;
+}
+
+#login {
+  background-image: url("http://localhost/NetClient/public/assets/renewable.jpg");
+  background-size: cover;
+}
+
+#main #errorPanel {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.login-card {
+  display: inline-block;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 13px 0px;
+}
+
+.login-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+#errorPanel {
+  animation: transitionIn 2s;
+}
+
+.alert.alert-danger {
+  display: inline-block !important;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
