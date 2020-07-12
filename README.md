@@ -2,6 +2,10 @@
 
 Web portal to view customer contracts.
 
+**user created for this project**
+User: audax
+Password : 1234 (encrypted in db)
+
 ---
 
 ## Table of Contents 
